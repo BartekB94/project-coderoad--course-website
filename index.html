@@ -3,160 +3,147 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style/style.css">
     <title>Best online courses!</title>
 </head>
 
 <body>
-    <div id="nav">
-        <ul>
-            <a href="./#features">
-                <li>Features</li>
-            </a>
-            <a href="./#testimonials">
-                <li>Testimonials</li>
-            </a>
-            <a href="./#contact">
-                <li>Contact</li>
-            </a>
-        </ul>
-    </div>
-    <div id="hero">
-        <img
-            src="./img/hero.jpg"
-            alt="Hero image"
-            width="100%"
-            height="300"
-        >
-        <h1>The best online courses in the market!</h1>
-        <p>Checkout yourself!</p>
-        <button>Buy now!</button>
-    </div>
-    <div id="features">
-        <div>
-            <img
-                src="./img/course-icon.png"
-                alt="Flaticon course icon"
-                width="50"
-            >
-            <h4>Online access</h4>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tenetur, saepe quae fuga quo, possimus id
-                totam adipisci aut vitae enim? Nostrum possimus maxime mollitia, quidem minus dolore quo dolor.
-            </p>
-        </div>
-        <div>
-            <img
-                src="./img/4k.png"
-                alt="Flaticon 4k icon"
-                width="50"
-            >
-            <h4>4K video lessons</h4>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tenetur, saepe quae fuga quo, possimus id
-                totam adipisci aut vitae enim? Nostrum possimus maxime mollitia, quidem minus dolore quo dolor.
-            </p>
-        </div>
-        <div>
-            <img
-                src="./img/chat.png"
-                alt="Flaticon chat icon"
-                width="50"
-            >
-            <h4>Contact with teacher</h4>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tenetur, saepe quae fuga quo, possimus id
-                totam adipisci aut vitae enim? Nostrum possimus maxime mollitia, quidem minus dolore quo dolor.
-            </p>
-        </div>
-    </div>
-    <div id="about">
-        <div>
-            <h2>Our team - meet people behind the course!</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda modi repudiandae, sed ipsa accusamus
-                maxime id accusantium eveniet, saepe velit culpa maiores beatae deserunt numquam ut amet soluta fugit
-                ullam!</p>
-        </div>
-        <div>
-            <img
-                src="./img/team-image.jpg"
-                alt="Team image"
-                width="500"
-            >
-        </div>
-    </div>
-    <div id="testimonials">
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum veritatis nobis aliquam cum inventore.
-                Perspiciatis sapiente maxime ullam, similique necessitatibus quod nemo minus ratione in repellendus
-                voluptatem, exercitationem vel quaerat.</p>
-            <hr />
-            <img
-                src="./img/avatar.jpg"
-                alt="Profile image"
-                width="50"
-            >
-            <p>John Doe</p>
-        </div>
-    </div>
-    <div id="contact">
-        <div>
-            <h2>Have questions?</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo temporibus voluptatum eveniet corrupti id
-                tempore adipisci qui rerum expedita voluptas ab quo, mollitia vel nesciunt nobis odit ex! Eligendi,
-                amet?</p>
-            <hr />
-            <div>
-                <img
-                    src="./img/location-marker.png"
-                    alt="Map market img"
-                    width="15"
-                >
-                <p>1717 Harrison St, San Francisco, CA 94103, USA</p>
+    <header id="nav" class="nav">
+        <nav class="container">
+            <ul class="nav__links">
+                <a class="nav__link nav__link--active" href="./#hero">
+                    <li class="nav__link-item">Home</li>
+                    <a class="nav__link" href="./#features">
+                        <li class="nav__link-item">Features</li>
+                    </a>
+                    <a class="nav__link" href="./#testimonials">
+                        <li class="nav__link-item">Testimonials</li>
+                    </a>
+                    <a class="nav__link" href="./#contact">
+                        <li class="nav__link-item">Contact</li>
+                    </a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero__info">
+                <h1 class="hero_header">The best online courses in the market!</h1>
+                <p class="hero__sub-header">Checkout yourself!</p>
+                <button class="cta-button">Buy now!</button>
             </div>
-            <div>
-                <img
-                    src="./img/phone.png"
-                    alt="Phone img"
-                    width="15"
-                >
-                <p>123-123-123</p>
+        </section>
+
+        <section class="features container" id="features">
+            <div class="feature">
+                <img src="./img/course-icon.png" alt="Flaticon course icon" width="50">
+                <h4>Online access</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tenetur, saepe quae fuga quo, possimus id
+                    totam adipisci aut vitae enim? Nostrum possimus maxime mollitia, quidem minus dolore quo dolor.
+                </p>
             </div>
-        </div>
-        <div>
-            <form>
-                <div>
-                    <input
-                        type="email"
-                        placeholder="E-mail adress"
-                    >
+            <div class="feature">
+                <img src="./img/4k.png" alt="Flaticon 4k icon" width="50">
+                <h4>4K video lessons</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tenetur, saepe quae fuga quo, possimus id
+                    totam adipisci aut vitae enim? Nostrum possimus maxime mollitia, quidem minus dolore quo dolor.
+                </p>
+            </div>
+            <div class="feature">
+                <img src="./img/chat.png" alt="Flaticon chat icon" width="50">
+                <h4>Contact with teacher</h4>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Error tenetur, saepe quae fuga quo, possimus id
+                    totam adipisci aut vitae enim? Nostrum possimus maxime mollitia, quidem minus dolore quo dolor.
+                </p>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about_container container">
+                <div class="about__description">
+                    <h2 class="about__header">Our team - meet people behind the course!</h2>
+                    <p class="about__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda modi
+                        repudiandae, sed ipsa accusamus
+                        maxime id accusantium eveniet, saepe velit culpa maiores beatae deserunt numquam ut amet soluta
+                        fugit
+                        ullam!</p>
                 </div>
-                <div>
-                    <input
-                        type="text"
-                        placeholder="Full name"
-                    >
+                <div class="about__image">
+                    <div class="about__image-container"></div>
                 </div>
-                <div>
-                    <textarea
-                        rows="4"
-                        placeholder="Message"
-                    ></textarea>
+            </div>
+
+        </section>
+
+        <section class="testimonials container" id="testimonials">
+            <div class="testimonials__arrow">
+                <img src="./img/left-arrow.png" alt="left-arrow" width="30px">
+            </div>
+            <div class="testimonials__content">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum veritatis nobis aliquam cum inventore.
+                    Perspiciatis sapiente maxime ullam, similique necessitatibus quod nemo minus ratione in repellendus
+                    voluptatem, exercitationem vel quaerat.</p>
+                <hr class="testimonials__line" />
+                <img class="testimonials__avatar" src="./img/avatar.jpg" alt="Profile image">
+                <p>John Doe</p>
+            </div>
+            <div class="testimonials__arrow">
+                <img src="./img/right-arrow.png" alt="right-arrow" width="25px">
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <div class="contact_container container">
+                <div class="contact__text">
+                    <h2>Have questions?</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo temporibus voluptatum eveniet corrupti id
+                        tempore adipisci qui rerum expedita voluptas ab quo, mollitia vel nesciunt nobis odit ex! Eligendi,
+                        amet?</p>
+                    <hr class="contact_line"/>
+        
+                    <div class="contact__text--address">
+                        <img class="contact__text--address-image" src="./img/location-marker.png" alt="Map market img" width="15"
+                            height="15">
+                        <p>1717 Harrison St, San Francisco, CA 94103, USA</p>
+                    </div>
+                    <div class="contact__text--address">
+                        <img class="contact__text--address-image" src="./img/phone.png" alt="Phone img" width="15" height="15">
+                        <p>123-123-123</p>
+                    </div>
+        
                 </div>
-                <div>
-                    <button>Send</button>
+                <div class="contact__form">
+                        <form class="contact__form--main" action="https://form-data-to-html-table.examples.coderoad.pl/" method="POST">
+                            <div>
+                                <input class="contact__input" type="email" placeholder="E-mail adress">
+                            </div>
+                            <div>
+                                <input class="contact__input" type="name" placeholder="Full name">
+                            </div>
+                            <div>
+                                <textarea class="contact__input contact__input--message" rows="4" placeholder="Message"></textarea>
+                            </div>
+                            <div>
+                                <button class="contact__button">Send</button>
+                            </div>
+                        </form>
                 </div>
-            </form>
-        </div>
-    </div>
-    <div id="footer">
-        <h3>The best online course in market!</h3>
-        <button>Buy now!</button>
-    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="footer">
+        <h3 class="footer__element">The best online course in market!</h3>
+        <button class="cta-button cta-button--big" class="footer__element">Buy now!</button>
+        <h4 class="footer__element">Icons provided by <a class="footer__flaticon" href="www.flaticon.com">flaticon.com</a></h4>
+    </footer>
+
 </body>
 
 </html>
